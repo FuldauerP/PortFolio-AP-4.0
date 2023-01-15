@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Portfolio-Fuldauer</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+<!-- SECCION INICIO -->
+<section id="inicio" class="inicio">
+<div class="contenido-banner">
+    <div class="contenedor-img">
+        <img src="img/pablo_foto.jpg " alt="">
+    </div>
+    <h1>HUGO PABLO FULDAUER</h1>
+    <h2>DESARROLADOR - FRONT-END</h2>
+   
+</div>
+</section>
+
+<!-- SECCION SOBRE MI -->
+<section id="sobremi" class="sobremi">
+<div class="contenido-seccion">
+    <h2>Sobre Mí</h2>
+    <p><span>Hola, soy HUGO PABLO FUDALUER.</span> Actualmente estudiante, con muchas ganas de adquirir y aprender mas sobre programcion que es lo que me apasiona, becado por mi Universidad en Data Sceinse / IA , proximamente a comenzar este mundo. Me gustaria poder trabajar actualmente como desarrollador Front - End como Trainee para adquir experiencia. Me gusta trabajar en equipo ya que se logra una ayuda mutua. </p>
+
+    <div class="fila">
+        <!-- datos personales -->
+        <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+                <li>
+                    <strong>Cumpleaños</strong>
+                    15-12-1980
+                </li>
+                <li>
+                    <strong>Teléfono</strong>
+                    (54) 1127442659
+                </li>
+                <li>
+                    <strong>Email</strong>
+                    pablofuldauer54@gmail.com
+                </li>
+                <li>
+                    <strong>Localidad</strong>
+                    Argentina, Buenos Aires
+                </li>
+                <li>
+                    <strong>Cargo</strong>
+                    <span>FREELANCE</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- intereses -->
+        <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                    <i class="fa-solid fa-headphones"></i>
+                    <span>MUSICA</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-person-hiking"></i>
+                    <span>DEPORTE</span>
+                </div>
+               <div class="interes">
+                    <i class="fa-solid fa-car"></i>
+                    <span>AUTOS</span>
+                </div>
+               
+                
+            </div>
+        </div>
+    </div>
+    
+</div>
+</section>
+<br>
+
+<!-- SECCION SKILLS -->
+<section class="skills" id="skills">
+<div class="contenido-seccion">
+    <h2>Skills</h2>
+    <div class="fila">
+        <!-- Technical Skill -->
+        <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+                <span>JAVASCRIPT</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>50%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>HTML & CSS</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>BOOSTRAP</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+           
+           
+           <br> 
+        </div>
+        <!-- Professional Skills -->
+        <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+                <span>Comunicación</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Trabajo en Equipo</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>10%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Creatividad</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Dedicación</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+</section>
+<br>
+
+<!-- SECCION CURRICULUM -->
+<section id="curriculum" class="curriculum">
+<div class="contenido-seccion">
+    <h2>Curriculum</h2>
+    <div class="fila">
+        <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+                <h4>Universidad Nacional de San Martin</h4>
+                <span class="casa">Tecnicatura en Programacion</span>
+                <span class="fecha"> 2019 - actualidad </span>
+                <div class="conectori">
+                    <div class="circuloi"></div>
+                </div>
+            </div>
+            <br>
+            <div class="item izq">
+                <h4>Curso Javascript</h4>
+                <span class="casa">Instituto Argentino de Computacion (I.A.C)</span>
+                <span class="fecha">Enero 2021 - Marzo 2021</span>
+                <div class="conectori">
+                    <div class="circuloi"></div>
+                </div>
+            </div>
+            <br>
+            <div class="item izq">
+                <h4>Centro de formacion profecional N°18</h4>
+                <span class="casa">Logica de Programacion</span>
+                <span class="fecha">Agosto 2022 - Dicimebre 2022</span>
+                <div class="conectori">
+                    <div class="circuloi"></div>
+                </div>
+            </div>
+            <br>
+            <div class="item izq">
+              <h4>Argentina Programa</h4>
+              <span class="casa">Se Programar (primera etapa)</span>
+              <span class="fecha">Marzo 2022 - Junio 2022 </span>
+              <div class="conectori">
+                  <div class="circuloi"></div>
+              </div>
+          </div>
+          <br>
+          <div class="item izq">
+            <h4>Codo a Codo 4.0</h4>
+            <span class="casa">Tecnicatura en desarrollo web</span>
+            <span class="fecha">Enero 2023 - actualidad</span>
+            <div class="conectori">
+                <div class="circuloi"></div>
+            </div>
+        </div>
+        <br>
+        <div class="item izq">
+          <h4>Argentina Programa 4.0 (becado por UNSAM)</h4>
+          <span class="casa">Data science / Inteligencia artificial</span>
+          <span class="fecha">Enero 2023 - Actualidad</span>
+          <div class="conectori">
+              <div class="circuloi"></div>
+          </div>
+      </div>
+        </div>
+
+       
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<br>
+
+<!-- SECCION PORTFOLIO -->
+<section id="portfolio" class="portfolio">
+<div class="contenido-seccion">
+    <h2>Mis proyectos</h2>
+    <div class="galeria">
+        <div class="proyecto">
+          <a href="https://prometheusproyect.tech/">Proyecto github / Cliente Arquitectura Gastronomica</a>
+            
+        </div>
+        
+          </div>
+        </div>
+        
+</section>
+<br>
+
+
+
+
+
+
+<!-- footer -->
+<footer>
+<a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+</a>
+<div class="redes">
+  <a href="https://www.facebook.com/pablo.fuldauer.5/"><i class="fa-brands fa-facebook-f"></i></a>
+  <a href="https://github.com/FuldauerP/FuldauerP.github.io"><i class="fa-brands fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/hugo-pablo-fuldauer-1"><i class="fa-brands fa-linkedin-in"></i></a>
+</div>
+</footer>
+
+
+    <!--Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
